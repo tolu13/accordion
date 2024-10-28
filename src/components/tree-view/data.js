@@ -1,4 +1,4 @@
-export const sideMenu = [
+ const menus = [
   {
     label: "Home",
     to: "/",
@@ -14,6 +14,12 @@ export const sideMenu = [
           {
             label: "Location",
             to: "location",
+            children: [
+                {
+                    label: "city",
+                    to: "city",
+                }
+            ]
           },
         ],
       },
@@ -38,6 +44,12 @@ export const sideMenu = [
           {
             label: "Register",
             to: "register",
+            children: [
+                {
+                    label: "random",
+                    to: "random",
+                }
+            ]
           },
         ],
       },
